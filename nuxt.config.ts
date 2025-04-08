@@ -19,7 +19,7 @@ export default defineNuxtConfig({
         { name: 'language', content: 'en' },
         { 
           name: 'description', 
-          content: 'Create, customize, and play bingo cards online. Perfect for classrooms, events, and parties. Features include custom grid sizes, card saving, and easy sharing.'
+          content: 'Create, customize, and play bingo cards online. Perfect for classrooms, events, and parties. Features include custom grid sizes, card saving.'
         },
         { name: 'theme-color', content: '#2563eb' },
         // Open Graph / Facebook
@@ -40,7 +40,7 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'canonical', href: 'https://your-domain.com' } // Replace with your actual domain
+        { rel: 'canonical', href: 'https://easy-bingo.com' } // Replace with your actual domain
       ]
     }
   },

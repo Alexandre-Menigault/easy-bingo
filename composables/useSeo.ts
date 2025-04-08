@@ -9,11 +9,11 @@ export const useSeo = (options: SeoOptions) => {
   const route = useRoute();
 
   const defaultTitle = 'Easy Bingo - Create and Play Custom Bingo Cards Online';
-  const defaultDescription = 'Create, customize, and play bingo cards online. Perfect for classrooms, events, and parties. Features include custom grid sizes, card saving, and easy sharing.';
+  const defaultDescription = 'Create, customize, and play bingo cards online. Perfect for classrooms, events, and parties. Features include custom grid sizes, card saving.';
   
   const title = options.title ? `${options.title} | Easy Bingo` : defaultTitle;
   const description = options.description || defaultDescription;
-  const url = options.url || `https://your-domain.com${route.path}`; // Replace with your actual domain
+  const url = options.url || `https://easy-bingo.com${route.path}`; // Replace with your actual domain
 
   useHead({
     title,
