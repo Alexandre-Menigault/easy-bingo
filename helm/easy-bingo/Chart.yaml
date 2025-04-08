@@ -1,0 +1,6 @@
+apiVersion: v2
+name: easy-bingo
+description: A webapp for creating and playing custom bingo cards
+type: application
+version: 0.1.0
+appVersion: "1.0.0" 
