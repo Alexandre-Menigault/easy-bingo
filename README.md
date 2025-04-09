@@ -1,6 +1,10 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/927db46a-692a-451a-80a3-a18fb2030c0d/deploy-status)](https://app.netlify.com/sites/easy-bingo/deploys)
+
 # Easy Bingo
 
 A web application for creating and playing custom bingo cards.
+
+available at : https://easy-bingo.com
 
 ## Features
 
